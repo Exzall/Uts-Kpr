@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center;">Kakulator Kpr</h1>
+      <div class="card">
+        <div class="box">
+          <h4>Harga Properti</h4>
+          <input id="hp" class="isi" type="text" placeholder="Harga Property" />
+        </div>
+        <div class="box">
+          <h4>Uang Muka</h4>
+          <input id="um" class="isi" type="text"/>
+        </div>
+        <div class="box">
+          <h4>Bunga/Ujrah/Margin per Tahun (%)</h4>
+          <input id="bum" class="isi" type="text"/>
+        </div> 
+        <div class="box">
+          <h4>Jangka Waktu Pinjaman (tahun)</h4>
+          <input id="jwp" class="isi" type="text" />
+        </div>
+        <div class="hasil">
+          <button class="btn" onclick="hitung()">Hitung</button>
+          <div id="hasil" class="result"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
